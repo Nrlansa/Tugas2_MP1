@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6495ED">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pakpok Store"
+                android:textColor="#ffffff"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="14dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:backgroundTint="#ffffff"
+                android:drawableStart="@drawable/ic_baseline_search_24"
+                android:gravity="center_vertical"
+                android:text="Cari.."
+                android:textAllCaps="false" />
+
+            <RelativeLayout
+                android:layout_width="2dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/bagikan" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.viewpager.widget.ViewPager
+
+        android:id="@+id/ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="247dp" />
+
+
+    <TextView
+        android:layout_width="295dp"
+        android:layout_height="20dp"
+        android:text="ASUS VivoBook K413EQ-EB551TS"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:text="Harga : Rp 15.838.680"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Garansi : 2 Years Local Official Distributor Warranty"
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:layout_width="24dp"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:text="Deskripsi"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:text="Processor: Intel Core i5-1135G7RAM: 8GBSSD: 512GBVGA: NVIDIA GeForce MX350Ukuran Layar: 14 Inch FHDKonektivitas: Wifi + BluetoothSistem Operasi: Windows 10 Home + Office Home Student 2019Asus VivoBook K413EQ-EB551TS"
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:layout_width="12dp"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:text="Spesifikasi"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:text="ProsesorIntel Core i5Processor OnboardIntel Core i5-1135G7 Processor (8M Cache, up to 4.20 GHz)Kapasitas Penyimpanan512 GB SSDMemori Standar8GB DDR4Tipe GrafisNVIDIA GeForce MX350 2GBUkuran Layar14.1 InchResolusi Layar1920 x 1080Tipe LayarAnti-Glare DisplayLayar SentuhTidakNetworkingIntegratedWireless Network TypeIntegratedWireless BluetoothIntegratedAntarmuka / Interface, 1x HDMI 1.4, 1x 3.5mm Combo Audio Jack,1x Headphone out,1x USB 2.0 Type-A,1x USB 3.2 Gen 1 Type-C2x USB 2.0 Type-A, Micro SD card readerKeyboardBacklit Chiclet KeyboardAudioIntegratedKamera720p HD camera//Without privacy shutterSistem OperasiMicrosoft Windows 10 HomeSoftware LainnyaMicrosoft Office Home StudlainFingerprint ent 2019Baterai3 CellDaya Tahan Baterai42WHrsDaya / Power65W AC AdapterDimensi (PTL)32.40 x 21.50 x "
+        android:textColor="#000000"
+        android:textSize="10dp" />
+
+    <androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#6495ED">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:freezesText="false"
+                android:text="Beli sekarang"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="29dp" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
